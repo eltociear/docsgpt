@@ -1,7 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+body{
+  background:linear-gradient(to right, aliceblue 0%, whitesmoke 50%, aliceblue 100%);
+}
 #chat-container {
     height: 44rem;
     background-color: white;
